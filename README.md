@@ -65,17 +65,37 @@ Both modes use semantic similarity scoring to evaluate how close the guesses are
 
 - Node.js 20+
 - Python 3.10+
-- PostgreSQL 15+ (or use Docker)
-- Docker & Docker Compose (recommended)
+- PostgreSQL 15+ (optional - app works without it)
+- Docker & Docker Compose (optional)
 
-### Option 1: Docker (Recommended)
+### Option 1: Simple Start (Windows - No Database Required)
+
+**Fastest way to get started on Windows:**
+
+```powershell
+# One command to start everything
+.\start-simple.ps1
+```
+
+This will:
+- Install dependencies automatically
+- Generate the plot twist dataset
+- Start all 3 services (Model Server, Backend, Frontend)
+- Open your browser to http://localhost:5173
+
+The app works without PostgreSQL! Leaderboard won't persist, but the game is fully functional.
+
+**Check service status:**
+```powershell
+.\check-services.ps1
+```
+
+### Option 2: Docker (Full Featured)
+
+**Requires Docker Desktop to be running:**
 
 ```bash
-# Clone repository
-git clone <repository-url>
-cd plot-twist-arena
-
-# Start all services
+# Start all services including PostgreSQL
 docker-compose up --build
 
 # Access the application
@@ -84,7 +104,7 @@ docker-compose up --build
 # Model Server: http://localhost:8001
 ```
 
-### Option 2: Manual Setup
+### Option 3: Manual Setup (All Platforms)
 
 #### 1. Install Dependencies
 
@@ -482,26 +502,89 @@ docker-compose -f docker-compose.prod.yml up -d
 
 ## Troubleshooting
 
-### Model server won't start
-- Check Python version (3.10+)
-- Install dependencies: `pip install -r model-server/requirements.txt`
-- Verify model path exists or remove MODEL_PATH to use base model
+### "AI failed to get predictions" Error
 
-### Database connection errors
-- Verify PostgreSQL is running
-- Check DATABASE_URL in backend/.env
-- Run migrations: `cd backend && npm run db:migrate`
+This means the backend can't reach the model server. Check:
+
+1. **Is the backend running?**
+   ```powershell
+   # Check if port 3001 is active
+   netstat -ano | findstr :3001
+   ```
+   If not running, start it: `cd backend && npm run dev`
+
+2. **Is the model server running?**
+   ```powershell
+   # Check if port 8001 is active
+   netstat -ano | findstr :8001
+   ```
+   If not running, start it: `cd model-server && python -m uvicorn main:app --reload --port 8001`
+
+3. **Check service status:**
+   ```powershell
+   .\check-services.ps1
+   ```
+
+4. **Restart all services:**
+   ```powershell
+   .\start-simple.ps1
+   ```
+
+### Backend won't start
+
+**Missing .env file:**
+```powershell
+# Create from example
+Copy-Item backend\.env.example backend\.env
+```
+
+**Database connection error:**
+The app now runs WITHOUT PostgreSQL! Database errors are warnings, not failures. If you see:
+```
+⚠ PostgreSQL not available, using in-memory fallback
+```
+This is fine! The game works without a database (leaderboard just won't persist).
+
+To enable full database features:
+```powershell
+docker run -d --name plottwist-db -e POSTGRES_DB=plottwist -e POSTGRES_USER=plottwist -e POSTGRES_PASSWORD=plottwist_dev -p 5432:5432 postgres:15-alpine
+```
+
+### Model server won't start
+- Check Python version: `python --version` (need 3.10+)
+- Install dependencies: `cd model-server && pip install -r requirements.txt`
+- The server will auto-download TinyLlama on first run (this takes a few minutes)
+
+### Port already in use
+
+Find and kill the process:
+```powershell
+# Find what's using the port
+netstat -ano | findstr :3001
+
+# Kill the process (replace PID with number from above)
+taskkill /PID <PID> /F
+```
 
 ### Frontend can't connect to backend
-- Verify VITE_API_URL in frontend/.env
-- Check backend is running on correct port
-- Verify CORS settings in backend
+- Check `frontend/.env` has: `VITE_API_URL=http://localhost:3001`
+- Restart frontend: `cd frontend && npm run dev`
+- Clear browser cache and reload
 
 ### Training fails with OOM
 - Reduce batch size in train_model.py
 - Use gradient accumulation
 - Try smaller model (TinyLlama)
 - Enable quantization (8-bit)
+
+### Services start but nothing happens
+
+Wait 10-15 seconds after starting services. The model server needs time to:
+1. Download the base model (first time only - ~2GB)
+2. Load the model into memory
+3. Start the API server
+
+Watch the Model Server window for "Models loaded successfully"
 
 ## License
 
