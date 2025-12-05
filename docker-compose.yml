@@ -1,0 +1,70 @@
+version: '3.8'
+
+services:
+  database:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: plottwist
+      POSTGRES_USER: plottwist
+      POSTGRES_PASSWORD: plottwist_dev
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U plottwist"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "3001:3001"
+    environment:
+      NODE_ENV: development
+      DATABASE_URL: postgresql://plottwist:plottwist_dev@database:5432/plottwist
+      MODEL_SERVER_URL: http://model-server:8001
+      PORT: 3001
+    depends_on:
+      database:
+        condition: service_healthy
+      model-server:
+        condition: service_started
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+
+  model-server:
+    build:
+      context: ./model-server
+      dockerfile: Dockerfile
+    ports:
+      - "8001:8001"
+    environment:
+      MODEL_PATH: /app/models/fine_tuned_model
+      DEVICE: cpu
+    volumes:
+      - ./model-server:/app
+      - model_data:/app/models
+    command: uvicorn main:app --host 0.0.0.0 --port 8001
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
+    environment:
+      VITE_API_URL: http://localhost:3001
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+
+volumes:
+  postgres_data:
+  model_data:
