@@ -1,0 +1,46 @@
+{
+  "app": {
+    "title": "PlotTwist Arena",
+    "tagline": "Battle AI in the ultimate plot twist showdown"
+  },
+  "modes": {
+    "aiGuess": {
+      "title": "AI Guesses Your Twist",
+      "description": "You provide a story, AI tries to predict your twist"
+    },
+    "humanGuess": {
+      "title": "You Guess AI's Twist",
+      "description": "AI generates a story, you guess the hidden twist"
+    }
+  },
+  "game": {
+    "setup": "Story Setup",
+    "twist": "Plot Twist",
+    "guess": "Your Guess",
+    "submit": "Submit",
+    "skip": "Skip Animation",
+    "score": "Score",
+    "playAgain": "Play Again"
+  },
+  "leaderboard": {
+    "title": "Leaderboard",
+    "rank": "Rank",
+    "player": "Player",
+    "score": "Score",
+    "mode": "Mode"
+  },
+  "multiplayer": {
+    "createRoom": "Create Room",
+    "joinRoom": "Join Room",
+    "roomCode": "Room Code",
+    "waiting": "Waiting for players...",
+    "startGame": "Start Game"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  }
+}

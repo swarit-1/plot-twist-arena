@@ -1,0 +1,75 @@
+# Plot Twist Taxonomy
+# Categorizes twist types for better organization and retrieval
+
+twist_types:
+  identity:
+    - unreliable_narrator
+    - secret_identity
+    - mistaken_identity
+    - amnesia_reveal
+    - clone_duplicate
+    - AI_reveal
+
+  temporal:
+    - time_loop
+    - time_travel
+    - prophetic_vision
+    - false_memory
+    - flashback_recontextualization
+
+  perspective:
+    - perspective_flip
+    - dream_sequence
+    - simulation_reveal
+    - story_within_story
+    - fourth_wall_break
+
+  character:
+    - betrayal
+    - double_agent
+    - secret_alliance
+    - hidden_motivation
+    - character_death_fake
+    - dead_all_along
+
+  moral:
+    - moral_inversion
+    - sympathetic_villain
+    - hero_becomes_villain
+    - greater_evil_revealed
+
+  reality:
+    - simulation
+    - hallucination
+    - parallel_universe
+    - altered_reality
+    - false_world
+
+  plot:
+    - MacGuffin_worthless
+    - quest_misdirection
+    - red_herring_resolution
+    - Chekov_gun_payoff
+
+  meta:
+    - narrative_unreliable
+    - author_insertion
+    - genre_shift
+    - tone_reversal
+
+genres:
+  - mystery
+  - thriller
+  - sci-fi
+  - horror
+  - drama
+  - fantasy
+  - comedy
+  - romance
+  - historical
+
+difficulty_levels:
+  easy: "Straightforward twist with clear foreshadowing"
+  medium: "Moderately surprising with some hints"
+  hard: "Highly unexpected with minimal foreshadowing"
+  expert: "Multi-layered twist requiring deep analysis"

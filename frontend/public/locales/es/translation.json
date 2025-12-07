@@ -1,0 +1,46 @@
+{
+  "app": {
+    "title": "PlotTwist Arena",
+    "tagline": "Batalla contra IA en el desafío definitivo de giros argumentales"
+  },
+  "modes": {
+    "aiGuess": {
+      "title": "IA Adivina Tu Giro",
+      "description": "Tú proporcionas una historia, la IA intenta predecir tu giro"
+    },
+    "humanGuess": {
+      "title": "Tú Adivinas el Giro de IA",
+      "description": "La IA genera una historia, tú adivinas el giro oculto"
+    }
+  },
+  "game": {
+    "setup": "Configuración de Historia",
+    "twist": "Giro Argumental",
+    "guess": "Tu Suposición",
+    "submit": "Enviar",
+    "skip": "Saltar Animación",
+    "score": "Puntuación",
+    "playAgain": "Jugar de Nuevo"
+  },
+  "leaderboard": {
+    "title": "Tabla de Clasificación",
+    "rank": "Rango",
+    "player": "Jugador",
+    "score": "Puntuación",
+    "mode": "Modo"
+  },
+  "multiplayer": {
+    "createRoom": "Crear Sala",
+    "joinRoom": "Unirse a Sala",
+    "roomCode": "Código de Sala",
+    "waiting": "Esperando jugadores...",
+    "startGame": "Comenzar Juego"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar"
+  }
+}

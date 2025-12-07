@@ -28,36 +28,68 @@ Both modes use semantic similarity scoring to evaluate how close the guesses are
 
 ## Features
 
-### Dataset Pipeline
-- Synthetic plot twist generation with templates
-- Genre-specific twist patterns (mystery, sci-fi, horror, thriller, drama, fantasy)
-- 1000+ training examples
-- Train/validation/test splits
-
-### Model Training
-- Fine-tuning pipeline for small LLMs (Llama-3.2, TinyLlama)
-- LoRA/QLoRA for efficient training
-- Dual-task training: twist prediction + story generation
-- Evaluation metrics and validation
-
-### Model Server
-- FastAPI endpoints for inference
-- Semantic scoring with sentence transformers
-- GPU/CPU support
-- Health checks and error handling
-
-### Backend API
-- RESTful endpoints for both game modes
-- PostgreSQL database for sessions and scores
-- Leaderboard system
-- Score submission and retrieval
-
-### Frontend
-- Modern React UI with TypeScript
+### 🎨 Frontend UX
+- **Cinematic twist reveals** with animated typewriter effect and blur transitions
+- **Keyboard accessible** navigation with ARIA labels and focus management
+- **Responsive design** optimized for mobile, tablet, and desktop
+- **Interactive guess cards** with expandable AI reasoning
 - Neon cyber-mystery aesthetic (Tailwind CSS)
 - Smooth animations (Framer Motion)
-- State management (Zustand)
-- Responsive design
+
+### ⚡ Real-time Streaming
+- **Server-Sent Events (SSE)** for low-latency predictions
+- **Progressive disclosure** of AI guesses as they're generated
+- Real-time progress indicators and status updates
+
+### 🎯 Advanced Scoring
+- **Hybrid scoring system** combining:
+  - Semantic similarity (sentence transformers)
+  - Lexical overlap (BLEU-like)
+  - Tag matching
+- **Detailed explanations** with confidence scores
+- Breakdown of shared/missing elements
+
+### 🧠 Retrieval-Augmented Generation (RAG)
+- **FAISS-powered retrieval** of similar plot twists
+- **Few-shot prompting** with top-K examples
+- Improved prediction accuracy and reduced hallucinations
+- Auditable retrieval tracking
+
+### 📊 Dataset Quality
+- **Taxonomy** of 40+ twist types across 8 categories
+- **Deduplication** using embedding clustering
+- **Augmentation** with paraphrasing and variations
+- 10,000+ high-quality examples
+
+### 👥 Multiplayer
+- **WebSocket-based** 1v1 challenge mode
+- **Room system** with codes for easy joining
+- **Real-time scoring** and turn management
+- Persistent match history
+
+### 📈 Observability
+- **Structured logging** with correlation IDs
+- **Prometheus metrics** for monitoring
+- **Grafana dashboard** template
+- Health check endpoints
+- CI/CD with GitHub Actions
+
+### 🛡️ Safety & Localization
+- **Content moderation** to block inappropriate twists
+- **i18n support** (English/Spanish)
+- Rate limiting and input validation
+
+### ⚡ Performance
+- **Redis caching** for predictions and RAG results
+- In-memory LRU fallback
+- Response time optimization
+- Horizontal scaling support
+
+### 📦 Production Ready
+- Complete Docker Compose setup
+- Kubernetes manifests
+- Deployment guides (AWS, GCP, Vercel)
+- Monitoring and backup strategies
 
 ## Quick Start
 
@@ -124,7 +156,7 @@ chmod +x scripts/setup.sh
 ```bash
 # Backend
 cp backend/.env.example backend/.env
-
+ 
 # Frontend
 cp frontend/.env.example frontend/.env
 ```

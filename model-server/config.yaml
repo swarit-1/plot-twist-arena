@@ -1,0 +1,27 @@
+# Model Server Configuration
+
+# Embedding model for RAG and scoring
+embedding_model: "all-MiniLM-L6-v2"
+
+# RAG index paths (relative to model-server directory)
+rag:
+  index_path: "../dataset/embeddings/index.faiss"
+  embeddings_path: "../dataset/embeddings/twist_embeddings.npy"
+  metadata_path: "../dataset/embeddings/twist_metadata.json"
+  top_k: 5  # Number of examples to retrieve
+
+# Model paths
+models:
+  twist_predictor: "models/fine_tuned_model"
+  fallback: "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+
+# Generation parameters
+generation:
+  max_tokens: 200
+  temperature: 0.8
+  top_p: 0.9
+
+# Scoring thresholds
+scoring:
+  high_threshold: 75
+  medium_threshold: 50

@@ -1,0 +1,113 @@
+{
+  "dashboard": {
+    "title": "PlotTwist Arena Metrics",
+    "tags": ["plottwist", "monitoring"],
+    "timezone": "browser",
+    "panels": [
+      {
+        "id": 1,
+        "title": "Total Requests",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "plottwist_total_requests",
+            "legendFormat": "Requests"
+          }
+        ],
+        "gridPos": {
+          "h": 8,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "id": 2,
+        "title": "Average Latency",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "plottwist_average_latency_seconds",
+            "legendFormat": "Latency (s)"
+          }
+        ],
+        "gridPos": {
+          "h": 8,
+          "w": 12,
+          "x": 12,
+          "y": 0
+        }
+      },
+      {
+        "id": 3,
+        "title": "Error Rate",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "rate(plottwist_error_count[5m])",
+            "legendFormat": "Errors/sec"
+          }
+        ],
+        "gridPos": {
+          "h": 8,
+          "w": 12,
+          "x": 0,
+          "y": 8
+        }
+      },
+      {
+        "id": 4,
+        "title": "Model Server Status",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "plottwist_models_loaded",
+            "legendFormat": "Models Loaded"
+          }
+        ],
+        "gridPos": {
+          "h": 8,
+          "w": 12,
+          "x": 12,
+          "y": 8
+        }
+      },
+      {
+        "id": 5,
+        "title": "Prediction Count",
+        "type": "counter",
+        "targets": [
+          {
+            "expr": "plottwist_total_predictions",
+            "legendFormat": "Predictions"
+          }
+        ],
+        "gridPos": {
+          "h": 4,
+          "w": 6,
+          "x": 0,
+          "y": 16
+        }
+      },
+      {
+        "id": 6,
+        "title": "Uptime",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "plottwist_uptime_seconds",
+            "legendFormat": "Uptime (s)"
+          }
+        ],
+        "gridPos": {
+          "h": 4,
+          "w": 6,
+          "x": 6,
+          "y": 16
+        }
+      }
+    ],
+    "schemaVersion": 16,
+    "version": 1
+  }
+}

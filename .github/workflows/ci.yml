@@ -1,0 +1,118 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [20.x]
+        python-version: ['3.10']
+
+    services:
+      postgres:
+        image: postgres:15-alpine
+        env:
+          POSTGRES_DB: plottwist_test
+          POSTGRES_USER: plottwist
+          POSTGRES_PASSWORD: plottwist_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Setup Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+
+    - name: Setup Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+        cache: 'pip'
+
+    # Frontend
+    - name: Install Frontend Dependencies
+      run: cd frontend && npm ci
+
+    - name: Lint Frontend
+      run: cd frontend && npm run lint
+
+    - name: Test Frontend
+      run: cd frontend && npm test
+
+    - name: Build Frontend
+      run: cd frontend && npm run build
+
+    # Backend
+    - name: Install Backend Dependencies
+      run: cd backend && npm ci
+
+    - name: Lint Backend
+      run: cd backend && npm run lint
+
+    - name: Test Backend
+      run: cd backend && npm test
+      env:
+        DATABASE_URL: postgresql://plottwist:plottwist_test@localhost:5432/plottwist_test
+        MODEL_SERVER_URL: http://localhost:8001
+
+    - name: Build Backend
+      run: cd backend && npm run build
+
+    # Model Server
+    - name: Install Model Server Dependencies
+      run: cd model-server && pip install -r requirements.txt
+
+    - name: Lint Model Server
+      run: cd model-server && python -m flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+
+    - name: Test Model Server
+      run: cd model-server && pytest -v
+
+    # Dataset Builder
+    - name: Install Dataset Builder Dependencies
+      run: cd dataset-builder && pip install -r requirements.txt
+
+    - name: Generate Test Dataset
+      run: cd dataset-builder && python scrape_twists.py
+
+    # Integration smoke tests
+    - name: Run Integration Smoke Tests
+      run: |
+        echo "Running smoke tests..."
+        # Check dataset was created
+        test -f dataset/processed/train.json
+        echo "Dataset check passed"
+
+  build-docker:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Build Docker Images
+      run: |
+        docker-compose build --parallel
+
+    - name: Test Docker Compose
+      run: |
+        docker-compose up -d
+        sleep 10
+        docker-compose ps
+        docker-compose down
