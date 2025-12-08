@@ -33,21 +33,21 @@ Write-Host ""
 # Start Model Server
 Write-Host "[1/3] Starting Model Server on port 8001..." -ForegroundColor Cyan
 Start-Process powershell -ArgumentList "-NoExit", "-Command", `
-    "Write-Host '=== Model Server ===' -ForegroundColor Magenta; cd '$PWD\model-server'; python -m uvicorn main:app --reload --port 8001"
+    "Write-Host '=== Model Server ===' -ForegroundColor Magenta; python -m uvicorn main:app --reload --port 8001" -WorkingDirectory "$PWD\model-server"
 
 Start-Sleep -Seconds 5
 
 # Start Backend
 Write-Host "[2/3] Starting Backend API on port 3001..." -ForegroundColor Cyan
 Start-Process powershell -ArgumentList "-NoExit", "-Command", `
-    "Write-Host '=== Backend API ===' -ForegroundColor Green; cd '$PWD\backend'; npm run dev"
+    "Write-Host '=== Backend API ===' -ForegroundColor Green; npm run dev" -WorkingDirectory "$PWD\backend"
 
 Start-Sleep -Seconds 3
 
 # Start Frontend
 Write-Host "[3/3] Starting Frontend on port 5173..." -ForegroundColor Cyan
 Start-Process powershell -ArgumentList "-NoExit", "-Command", `
-    "Write-Host '=== Frontend ===' -ForegroundColor Yellow; cd '$PWD\frontend'; npm run dev"
+    "Write-Host '=== Frontend ===' -ForegroundColor Yellow; npm run dev" -WorkingDirectory "$PWD\frontend"
 
 Write-Host ""
 Write-Host "=== All Services Starting! ===" -ForegroundColor Green

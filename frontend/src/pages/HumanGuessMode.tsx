@@ -8,10 +8,11 @@ export default function HumanGuessMode() {
   const navigate = useNavigate();
   const { playerName, setScore } = useGameStore();
 
-  const [genre, setGenre] = useState('');
-  const [difficulty, setDifficulty] = useState('medium');
+  // These values are static for now (no UI to change them)
+  const genre = '';
+  const difficulty = 'medium';
   const [storySetup, setStorySetup] = useState('');
-  const [hiddenTwist, setHiddenTwist] = useState('');
+  // hiddenTwist isn't displayed in this component currently; backend stores it
   const [playerGuess, setPlayerGuess] = useState('');
   const [sessionId, setSessionId] = useState<number | null>(null);
   const [loading, setLoading] = useState(false);
@@ -27,9 +28,7 @@ export default function HumanGuessMode() {
       });
 
       setSessionId(response.session_id);
-      setStorySetup(response.story_setup);
-      // Hidden twist is stored on backend
-      setHiddenTwist(''); // We'll get it when scoring
+  setStorySetup(response.story_setup);
     } catch (error) {
       console.error('Error generating story:', error);
       alert('Failed to generate story. Please try again.');
@@ -69,9 +68,8 @@ export default function HumanGuessMode() {
         player_guess: playerGuess,
       });
 
-      setScore(response.score);
-      setScoreResult(response);
-      setHiddenTwist(response.actual_twist);
+  setScore(response.score);
+  setScoreResult(response);
     } catch (error) {
       console.error('Error submitting guess:', error);
       alert('Failed to submit guess. Please try again.');
@@ -82,7 +80,7 @@ export default function HumanGuessMode() {
 
   const handlePlayAgain = () => {
     setStorySetup('');
-    setHiddenTwist('');
+  // reset local UI state
     setPlayerGuess('');
     setSessionId(null);
     setScoreResult(null);

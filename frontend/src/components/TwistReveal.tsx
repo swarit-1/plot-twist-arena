@@ -1,6 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useFocusRing } from 'react-aria';
 
 interface TwistRevealProps {
   twistText: string;
@@ -12,7 +11,12 @@ export default function TwistReveal({ twistText, onComplete, revealSpeed = 50 }:
   const [stage, setStage] = useState<'blurred' | 'typewriter' | 'revealed'>('blurred');
   const [displayedText, setDisplayedText] = useState('');
   const [skipped, setSkipped] = useState(false);
-  const { isFocusVisible, focusProps } = useFocusRing();
+  // Lightweight focus-visible fallback to avoid relying on react-aria types
+  const [isFocusVisible, setIsFocusVisible] = useState(false);
+  const focusProps = {
+    onFocus: () => setIsFocusVisible(true),
+    onBlur: () => setIsFocusVisible(false)
+  };
 
   const skip = useCallback(() => {
     setSkipped(true);
@@ -40,7 +44,7 @@ export default function TwistReveal({ twistText, onComplete, revealSpeed = 50 }:
   useEffect(() => {
     if (skipped) return;
 
-    const timers: NodeJS.Timeout[] = [];
+    const timers: ReturnType<typeof setTimeout>[] = [];
 
     // Blurred -> Typewriter
     if (stage === 'blurred') {
@@ -99,7 +103,7 @@ export default function TwistReveal({ twistText, onComplete, revealSpeed = 50 }:
             animate={{ opacity: 1 }}
             className="absolute inset-0 flex items-center justify-center"
           >
-            <p className="text-3xl text-cyber-accent font-bold px-8 text-center font-mono">
+            <p className="text-3xl text-cyber-accent font-bold px-8 text-center font-mono" aria-live="polite">
               {displayedText}
               <motion.span
                 animate={{ opacity: [1, 0, 1] }}
@@ -145,6 +149,7 @@ export default function TwistReveal({ twistText, onComplete, revealSpeed = 50 }:
           animate={{ opacity: 0.7 }}
           whileHover={{ opacity: 1, scale: 1.05 }}
           onClick={skip}
+          type="button"
           className={`absolute bottom-4 right-4 px-4 py-2 cyber-border bg-cyber-bg text-cyber-accent rounded text-sm ${
             isFocusVisible ? 'ring-2 ring-cyber-accent' : ''
           }`}

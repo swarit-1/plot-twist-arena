@@ -1,218 +1,15 @@
 [
   {
-    "id": "twist_000099",
-    "story_genre": "thriller",
-    "story_setup": "Someone discovers photograph that reveals forbidden knowledge.",
-    "twist": "Everyone involved was dead from the beginning.",
-    "tags": [
-      "thriller",
-      "dead"
-    ]
-  },
-  {
-    "id": "twist_000792",
+    "id": "twist_000458",
     "story_genre": "sci-fi",
-    "story_setup": "People in virtual world experience telepathy.",
-    "twist": "They're all dead and don't know it.",
-    "tags": [
-      "sci-fi",
-      "dead"
-    ]
-  },
-  {
-    "id": "twist_000875",
-    "story_genre": "mystery",
-    "story_setup": "A doctor investigates murder in a mansion.",
-    "twist": "The doctor was actually the mastermind all along.",
-    "tags": [
-      "mystery",
-      "the_mastermind"
-    ]
-  },
-  {
-    "id": "twist_000197",
-    "story_genre": "horror",
-    "story_setup": "Reality begins to merge for one character.",
-    "twist": "The portal was created by aliens.",
-    "tags": [
-      "horror"
-    ]
-  },
-  {
-    "id": "twist_000375",
-    "story_genre": "sci-fi",
-    "story_setup": "People in underground facility experience telepathy.",
-    "twist": "They're all dead and don't know it.",
-    "tags": [
-      "sci-fi",
-      "dead"
-    ]
-  },
-  {
-    "id": "twist_001002",
-    "story_genre": "mystery",
-    "story_setup": "A journalist investigates murder in a mansion.",
-    "twist": "Everyone involved was dead from the beginning.",
-    "tags": [
-      "mystery",
-      "dead"
-    ]
-  },
-  {
-    "id": "twist_000482",
-    "story_genre": "mystery",
-    "story_setup": "Someone discovers diary that reveals forbidden knowledge.",
-    "twist": "The victim staged everything to escape debt.",
-    "tags": [
-      "mystery"
-    ]
-  },
-  {
-    "id": "twist_000626",
-    "story_genre": "mystery",
-    "story_setup": "A teacher investigates fraud in a university.",
-    "twist": "The teacher was actually the actual victim all along.",
-    "tags": [
-      "mystery",
-      "the_actual_victim"
-    ]
-  },
-  {
-    "id": "twist_000219",
-    "story_genre": "horror",
-    "story_setup": "Reality begins to merge for one character.",
-    "twist": "Everything was a memory from the start.",
-    "tags": [
-      "horror",
-      "a_memory"
-    ]
-  },
-  {
-    "id": "twist_000280",
-    "story_genre": "sci-fi",
-    "story_setup": "People in colony experience telepathy.",
-    "twist": "The AI system was created by AI.",
-    "tags": [
-      "sci-fi"
-    ]
-  },
-  {
-    "id": "twist_000292",
-    "story_genre": "mystery",
-    "story_setup": "A family receives phone call with no explanation.",
-    "twist": "The accused staged everything to escape debt.",
-    "tags": [
-      "mystery"
-    ]
-  },
-  {
-    "id": "twist_000238",
-    "story_genre": "mystery",
-    "story_setup": "A teacher investigates murder in a small town.",
-    "twist": "The witness staged everything to frame someone.",
-    "tags": [
-      "mystery"
-    ]
-  },
-  {
-    "id": "twist_000533",
-    "story_genre": "horror",
-    "story_setup": "People in virtual world experience shared dreams.",
-    "twist": "Everything was a dying dream from the start.",
-    "tags": [
-      "horror",
-      "a_dying_dream"
-    ]
-  },
-  {
-    "id": "twist_000148",
-    "story_genre": "horror",
     "story_setup": "People in colony experience time loops.",
-    "twist": "Everything was a prophecy from the start.",
-    "tags": [
-      "horror",
-      "a_prophecy"
-    ]
-  },
-  {
-    "id": "twist_000255",
-    "story_genre": "sci-fi",
-    "story_setup": "People in space station experience shared dreams.",
-    "twist": "Everything was a dying dream from the start.",
-    "tags": [
-      "sci-fi",
-      "a_dying_dream"
-    ]
-  },
-  {
-    "id": "twist_000935",
-    "story_genre": "sci-fi",
-    "story_setup": "Reality begins to loop for entire cast.",
-    "twist": "The device was infected by the protagonist.",
+    "twist": "The portal was created by the protagonist.",
     "tags": [
       "sci-fi"
     ]
   },
   {
-    "id": "twist_000283",
-    "story_genre": "thriller",
-    "story_setup": "A business partner receives anonymous letter with no explanation.",
-    "twist": "Everyone involved was living in simulation from the beginning.",
-    "tags": [
-      "thriller",
-      "living_in_simulation"
-    ]
-  },
-  {
-    "id": "twist_000285",
-    "story_genre": "mystery",
-    "story_setup": "A couple receives phone call with no explanation.",
-    "twist": "Everyone involved was dead from the beginning.",
-    "tags": [
-      "mystery",
-      "dead"
-    ]
-  },
-  {
-    "id": "twist_000616",
-    "story_genre": "thriller",
-    "story_setup": "A doctor investigates murder in a island.",
-    "twist": "The doctor was actually the mastermind all along.",
-    "tags": [
-      "thriller",
-      "the_mastermind"
-    ]
-  },
-  {
-    "id": "twist_000627",
-    "story_genre": "mystery",
-    "story_setup": "A lawyer investigates fraud in a island.",
-    "twist": "Everyone involved was living in simulation from the beginning.",
-    "tags": [
-      "mystery",
-      "living_in_simulation"
-    ]
-  },
-  {
-    "id": "twist_000652",
-    "story_genre": "thriller",
-    "story_setup": "A friend group receives phone call with no explanation.",
-    "twist": "The accused staged everything to inherit fortune.",
-    "tags": [
-      "thriller"
-    ]
-  },
-  {
-    "id": "twist_000305",
-    "story_genre": "horror",
-    "story_setup": "A scientist discovers experiment that alters reality.",
-    "twist": "The experiment was controlled by AI.",
-    "tags": [
-      "horror"
-    ]
-  },
-  {
-    "id": "twist_000785",
+    "id": "twist_000671",
     "story_genre": "sci-fi",
     "story_setup": "People in virtual world experience time loops.",
     "twist": "Everything was a time loop from the start.",
@@ -222,141 +19,251 @@
     ]
   },
   {
-    "id": "twist_000491",
-    "story_genre": "sci-fi",
-    "story_setup": "Reality begins to fragment for protagonist.",
-    "twist": "The AI system was infected by the protagonist.",
-    "tags": [
-      "sci-fi"
-    ]
-  },
-  {
-    "id": "twist_000514",
-    "story_genre": "thriller",
-    "story_setup": "A business partner receives message with no explanation.",
-    "twist": "The victim staged everything to frame someone.",
-    "tags": [
-      "thriller"
-    ]
-  },
-  {
-    "id": "twist_000941",
-    "story_genre": "thriller",
-    "story_setup": "A family receives phone call with no explanation.",
-    "twist": "Everyone involved was dead from the beginning.",
-    "tags": [
-      "thriller",
-      "dead"
-    ]
-  },
-  {
-    "id": "twist_000739",
-    "story_genre": "sci-fi",
-    "story_setup": "A astronaut discovers experiment that alters reality.",
-    "twist": "The experiment was infected by the protagonist.",
-    "tags": [
-      "sci-fi"
-    ]
-  },
-  {
-    "id": "twist_000296",
-    "story_genre": "thriller",
-    "story_setup": "Someone discovers diary that reveals past crime.",
-    "twist": "Everyone involved was dead from the beginning.",
-    "tags": [
-      "thriller",
-      "dead"
-    ]
-  },
-  {
-    "id": "twist_000432",
+    "id": "twist_000106",
     "story_genre": "horror",
-    "story_setup": "People in virtual world experience time loops.",
-    "twist": "The device was infected by the protagonist.",
+    "story_setup": "People in colony experience shared dreams.",
+    "twist": "The AI system was created by AI.",
     "tags": [
       "horror"
     ]
   },
   {
-    "id": "twist_000112",
+    "id": "twist_000227",
+    "story_genre": "sci-fi",
+    "story_setup": "People in virtual world experience telepathy.",
+    "twist": "Everything was a prophecy from the start.",
+    "tags": [
+      "sci-fi",
+      "a_prophecy"
+    ]
+  },
+  {
+    "id": "twist_000105",
     "story_genre": "thriller",
     "story_setup": "A teacher investigates disappearance in a island.",
-    "twist": "The accused staged everything to hide identity.",
+    "twist": "The missing person staged everything to escape debt.",
     "tags": [
       "thriller"
     ]
   },
   {
-    "id": "twist_000962",
-    "story_genre": "thriller",
-    "story_setup": "A couple receives package with no explanation.",
-    "twist": "The missing person staged everything to inherit fortune.",
-    "tags": [
-      "thriller"
-    ]
-  },
-  {
-    "id": "twist_000137",
+    "id": "twist_000828",
     "story_genre": "mystery",
-    "story_setup": "A family receives anonymous letter with no explanation.",
-    "twist": "The missing person staged everything to hide identity.",
+    "story_setup": "A business partner receives message with no explanation.",
+    "twist": "The accused staged everything to frame someone.",
     "tags": [
       "mystery"
     ]
   },
   {
-    "id": "twist_000043",
+    "id": "twist_000379",
     "story_genre": "thriller",
-    "story_setup": "A couple receives anonymous letter with no explanation.",
-    "twist": "Everyone involved was living in simulation from the beginning.",
+    "story_setup": "A couple receives phone call with no explanation.",
+    "twist": "Everyone involved was dead from the beginning.",
     "tags": [
       "thriller",
-      "living_in_simulation"
+      "dead"
     ]
   },
   {
-    "id": "twist_000431",
+    "id": "twist_000665",
+    "story_genre": "sci-fi",
+    "story_setup": "People in colony experience telepathy.",
+    "twist": "Everything was a memory from the start.",
+    "tags": [
+      "sci-fi",
+      "a_memory"
+    ]
+  },
+  {
+    "id": "twist_000770",
+    "story_genre": "thriller",
+    "story_setup": "A couple receives anonymous letter with no explanation.",
+    "twist": "Everyone involved was in on it from the beginning.",
+    "tags": [
+      "thriller",
+      "in_on_it"
+    ]
+  },
+  {
+    "id": "twist_000906",
+    "story_genre": "sci-fi",
+    "story_setup": "A programmer discovers device that predicts future.",
+    "twist": "The device was created by AI.",
+    "tags": [
+      "sci-fi"
+    ]
+  },
+  {
+    "id": "twist_000736",
+    "story_genre": "sci-fi",
+    "story_setup": "Reality begins to merge for one character.",
+    "twist": "The AI system was controlled by future humans.",
+    "tags": [
+      "sci-fi"
+    ]
+  },
+  {
+    "id": "twist_000299",
+    "story_genre": "horror",
+    "story_setup": "A programmer discovers device that controls time.",
+    "twist": "Everything was a memory from the start.",
+    "tags": [
+      "horror",
+      "a_memory"
+    ]
+  },
+  {
+    "id": "twist_000419",
+    "story_genre": "horror",
+    "story_setup": "Reality begins to merge for entire cast.",
+    "twist": "Everything was a time loop from the start.",
+    "tags": [
+      "horror",
+      "a_time_loop"
+    ]
+  },
+  {
+    "id": "twist_000721",
+    "story_genre": "sci-fi",
+    "story_setup": "Reality begins to fragment for protagonist.",
+    "twist": "The AI system was infected by future humans.",
+    "tags": [
+      "sci-fi"
+    ]
+  },
+  {
+    "id": "twist_000641",
+    "story_genre": "sci-fi",
+    "story_setup": "People in virtual world experience memory loss.",
+    "twist": "They're all AI constructs and don't know it.",
+    "tags": [
+      "sci-fi",
+      "AI_constructs"
+    ]
+  },
+  {
+    "id": "twist_000669",
     "story_genre": "mystery",
-    "story_setup": "A doctor investigates murder in a mansion.",
-    "twist": "The doctor was actually the actual victim all along.",
+    "story_setup": "Someone discovers letter that reveals past crime.",
+    "twist": "The detective was actually the actual victim all along.",
     "tags": [
       "mystery",
       "the_actual_victim"
     ]
   },
   {
-    "id": "twist_000404",
+    "id": "twist_000268",
     "story_genre": "mystery",
-    "story_setup": "A couple receives package with no explanation.",
-    "twist": "Everyone involved was being manipulated from the beginning.",
+    "story_setup": "A friend group receives package with no explanation.",
+    "twist": "The missing person staged everything to escape debt.",
     "tags": [
-      "mystery",
-      "being_manipulated"
+      "mystery"
     ]
   },
   {
-    "id": "twist_000414",
+    "id": "twist_000418",
+    "story_genre": "sci-fi",
+    "story_setup": "People in colony experience telepathy.",
+    "twist": "Everything was a time loop from the start.",
+    "tags": [
+      "sci-fi",
+      "a_time_loop"
+    ]
+  },
+  {
+    "id": "twist_000282",
+    "story_genre": "mystery",
+    "story_setup": "Someone discovers letter that reveals past crime.",
+    "twist": "The detective was actually working with the villain all along.",
+    "tags": [
+      "mystery",
+      "working_with_the_villain"
+    ]
+  },
+  {
+    "id": "twist_001008",
     "story_genre": "horror",
-    "story_setup": "People in colony experience memory loss.",
-    "twist": "The device was created by aliens.",
+    "story_setup": "People in virtual world experience shared dreams.",
+    "twist": "Everything was a dying dream from the start.",
+    "tags": [
+      "horror",
+      "a_dying_dream"
+    ]
+  },
+  {
+    "id": "twist_000875",
+    "story_genre": "sci-fi",
+    "story_setup": "A scientist discovers portal that controls time.",
+    "twist": "Everything was a dying dream from the start.",
+    "tags": [
+      "sci-fi",
+      "a_dying_dream"
+    ]
+  },
+  {
+    "id": "twist_000022",
+    "story_genre": "horror",
+    "story_setup": "People in colony experience time loops.",
+    "twist": "The AI system was infected by aliens.",
     "tags": [
       "horror"
     ]
   },
   {
-    "id": "twist_000105",
-    "story_genre": "sci-fi",
-    "story_setup": "People in virtual world experience shared dreams.",
-    "twist": "They're all in a simulation and don't know it.",
+    "id": "twist_001004",
+    "story_genre": "thriller",
+    "story_setup": "A business partner receives package with no explanation.",
+    "twist": "Everyone involved was dead from the beginning.",
     "tags": [
-      "sci-fi",
-      "in_a_simulation"
+      "thriller",
+      "dead"
     ]
   },
   {
-    "id": "twist_000983",
+    "id": "twist_000942",
+    "story_genre": "thriller",
+    "story_setup": "A detective investigates murder in a island.",
+    "twist": "The detective was actually the actual victim all along.",
+    "tags": [
+      "thriller",
+      "the_actual_victim"
+    ]
+  },
+  {
+    "id": "twist_000051",
+    "story_genre": "sci-fi",
+    "story_setup": "People in colony experience telepathy.",
+    "twist": "They're all AI constructs and don't know it.",
+    "tags": [
+      "sci-fi",
+      "AI_constructs"
+    ]
+  },
+  {
+    "id": "twist_000697",
+    "story_genre": "sci-fi",
+    "story_setup": "Reality begins to fragment for entire cast.",
+    "twist": "Everything was a time loop from the start.",
+    "tags": [
+      "sci-fi",
+      "a_time_loop"
+    ]
+  },
+  {
+    "id": "twist_000978",
+    "story_genre": "sci-fi",
+    "story_setup": "People in colony experience memory loss.",
+    "twist": "Everything was a prophecy from the start.",
+    "tags": [
+      "sci-fi",
+      "a_prophecy"
+    ]
+  },
+  {
+    "id": "twist_000024",
     "story_genre": "horror",
-    "story_setup": "People in space station experience telepathy.",
+    "story_setup": "A scientist discovers portal that controls time.",
     "twist": "Everything was a prophecy from the start.",
     "tags": [
       "horror",
@@ -364,27 +271,362 @@
     ]
   },
   {
-    "id": "twist_000202",
-    "story_genre": "thriller",
-    "story_setup": "A detective investigates theft in a island.",
-    "twist": "Everyone involved was living in simulation from the beginning.",
+    "id": "twist_000016",
+    "story_genre": "horror",
+    "story_setup": "People in colony experience time loops.",
+    "twist": "The AI system was infected by aliens.",
     "tags": [
-      "thriller",
-      "living_in_simulation"
+      "horror"
     ]
   },
   {
-    "id": "twist_000182",
+    "id": "twist_000587",
+    "story_genre": "horror",
+    "story_setup": "A astronaut discovers AI system that predicts future.",
+    "twist": "The AI system was created by the protagonist.",
+    "tags": [
+      "horror"
+    ]
+  },
+  {
+    "id": "twist_000122",
+    "story_genre": "horror",
+    "story_setup": "Reality begins to shift for one character.",
+    "twist": "They're all in a simulation and don't know it.",
+    "tags": [
+      "horror",
+      "in_a_simulation"
+    ]
+  },
+  {
+    "id": "twist_000772",
+    "story_genre": "thriller",
+    "story_setup": "A friend group receives message with no explanation.",
+    "twist": "The detective was actually working with the villain all along.",
+    "tags": [
+      "thriller",
+      "working_with_the_villain"
+    ]
+  },
+  {
+    "id": "twist_000610",
+    "story_genre": "horror",
+    "story_setup": "Reality begins to loop for one character.",
+    "twist": "The AI system was controlled by the protagonist.",
+    "tags": [
+      "horror"
+    ]
+  },
+  {
+    "id": "twist_000931",
+    "story_genre": "horror",
+    "story_setup": "Reality begins to loop for entire cast.",
+    "twist": "Everything was a prophecy from the start.",
+    "tags": [
+      "horror",
+      "a_prophecy"
+    ]
+  },
+  {
+    "id": "twist_000938",
     "story_genre": "mystery",
-    "story_setup": "A lawyer investigates fraud in a university.",
+    "story_setup": "Someone discovers recording that reveals hidden identity.",
+    "twist": "The witness staged everything to escape debt.",
+    "tags": [
+      "mystery"
+    ]
+  },
+  {
+    "id": "twist_000933",
+    "story_genre": "thriller",
+    "story_setup": "Someone discovers recording that reveals hidden identity.",
     "twist": "Everyone involved was in on it from the beginning.",
     "tags": [
-      "mystery",
+      "thriller",
       "in_on_it"
     ]
   },
   {
-    "id": "twist_000461",
+    "id": "twist_000921",
+    "story_genre": "horror",
+    "story_setup": "People in underground facility experience shared dreams.",
+    "twist": "Everything was a time loop from the start.",
+    "tags": [
+      "horror",
+      "a_time_loop"
+    ]
+  },
+  {
+    "id": "twist_000616",
+    "story_genre": "thriller",
+    "story_setup": "A couple receives anonymous letter with no explanation.",
+    "twist": "Everyone involved was in on it from the beginning.",
+    "tags": [
+      "thriller",
+      "in_on_it"
+    ]
+  },
+  {
+    "id": "twist_000162",
+    "story_genre": "horror",
+    "story_setup": "Reality begins to merge for one character.",
+    "twist": "They're all AI constructs and don't know it.",
+    "tags": [
+      "horror",
+      "AI_constructs"
+    ]
+  },
+  {
+    "id": "twist_000026",
+    "story_genre": "sci-fi",
+    "story_setup": "A researcher discovers AI system that reads minds.",
+    "twist": "Everything was a memory from the start.",
+    "tags": [
+      "sci-fi",
+      "a_memory"
+    ]
+  },
+  {
+    "id": "twist_001003",
+    "story_genre": "sci-fi",
+    "story_setup": "People in underground facility experience time loops.",
+    "twist": "Everything was a time loop from the start.",
+    "tags": [
+      "sci-fi",
+      "a_time_loop"
+    ]
+  },
+  {
+    "id": "twist_000135",
+    "story_genre": "horror",
+    "story_setup": "People in colony experience shared dreams.",
+    "twist": "The AI system was infected by AI.",
+    "tags": [
+      "horror"
+    ]
+  },
+  {
+    "id": "twist_000113",
+    "story_genre": "mystery",
+    "story_setup": "Someone discovers photograph that reveals forbidden knowledge.",
+    "twist": "The victim staged everything to escape debt.",
+    "tags": [
+      "mystery"
+    ]
+  },
+  {
+    "id": "twist_000265",
+    "story_genre": "sci-fi",
+    "story_setup": "People in virtual world experience shared dreams.",
+    "twist": "They're all AI constructs and don't know it.",
+    "tags": [
+      "sci-fi",
+      "AI_constructs"
+    ]
+  },
+  {
+    "id": "twist_000489",
+    "story_genre": "thriller",
+    "story_setup": "Someone discovers photograph that reveals hidden identity.",
+    "twist": "Everyone involved was in on it from the beginning.",
+    "tags": [
+      "thriller",
+      "in_on_it"
+    ]
+  },
+  {
+    "id": "twist_000668",
+    "story_genre": "sci-fi",
+    "story_setup": "Reality begins to merge for entire cast.",
+    "twist": "Everything was a memory from the start.",
+    "tags": [
+      "sci-fi",
+      "a_memory"
+    ]
+  },
+  {
+    "id": "twist_000254",
+    "story_genre": "sci-fi",
+    "story_setup": "Reality begins to merge for protagonist.",
+    "twist": "The experiment was infected by aliens.",
+    "tags": [
+      "sci-fi"
+    ]
+  },
+  {
+    "id": "twist_000450",
+    "story_genre": "mystery",
+    "story_setup": "A family receives anonymous letter with no explanation.",
+    "twist": "The missing person staged everything to escape debt.",
+    "tags": [
+      "mystery"
+    ]
+  },
+  {
+    "id": "twist_000329",
+    "story_genre": "mystery",
+    "story_setup": "A friend group receives package with no explanation.",
+    "twist": "Everyone involved was being manipulated from the beginning.",
+    "tags": [
+      "mystery",
+      "being_manipulated"
+    ]
+  },
+  {
+    "id": "twist_000340",
+    "story_genre": "thriller",
+    "story_setup": "A detective investigates murder in a island.",
+    "twist": "The detective was actually working with the villain all along.",
+    "tags": [
+      "thriller",
+      "working_with_the_villain"
+    ]
+  },
+  {
+    "id": "twist_000586",
+    "story_genre": "thriller",
+    "story_setup": "Someone discovers photograph that reveals past crime.",
+    "twist": "Everyone involved was dead from the beginning.",
+    "tags": [
+      "thriller",
+      "dead"
+    ]
+  },
+  {
+    "id": "twist_000896",
+    "story_genre": "horror",
+    "story_setup": "Reality begins to fragment for entire cast.",
+    "twist": "Everything was a time loop from the start.",
+    "tags": [
+      "horror",
+      "a_time_loop"
+    ]
+  },
+  {
+    "id": "twist_000890",
+    "story_genre": "sci-fi",
+    "story_setup": "A astronaut discovers experiment that controls time.",
+    "twist": "The experiment was infected by the protagonist.",
+    "tags": [
+      "sci-fi"
+    ]
+  },
+  {
+    "id": "twist_000826",
+    "story_genre": "thriller",
+    "story_setup": "Someone discovers recording that reveals hidden identity.",
+    "twist": "The teacher was actually the actual victim all along.",
+    "tags": [
+      "thriller",
+      "the_actual_victim"
+    ]
+  },
+  {
+    "id": "twist_000862",
+    "story_genre": "mystery",
+    "story_setup": "A doctor investigates conspiracy in a corporation.",
+    "twist": "The missing person staged everything to frame someone.",
+    "tags": [
+      "mystery"
+    ]
+  },
+  {
+    "id": "twist_000897",
+    "story_genre": "mystery",
+    "story_setup": "A lawyer investigates murder in a mansion.",
+    "twist": "The victim staged everything to inherit fortune.",
+    "tags": [
+      "mystery"
+    ]
+  },
+  {
+    "id": "twist_000420",
+    "story_genre": "mystery",
+    "story_setup": "A couple receives message with no explanation.",
+    "twist": "The teacher was actually the actual victim all along.",
+    "tags": [
+      "mystery",
+      "the_actual_victim"
+    ]
+  },
+  {
+    "id": "twist_000964",
+    "story_genre": "sci-fi",
+    "story_setup": "People in space station experience time loops.",
+    "twist": "Everything was a memory from the start.",
+    "tags": [
+      "sci-fi",
+      "a_memory"
+    ]
+  },
+  {
+    "id": "twist_000725",
+    "story_genre": "mystery",
+    "story_setup": "A teacher investigates fraud in a corporation.",
+    "twist": "The missing person staged everything to hide identity.",
+    "tags": [
+      "mystery"
+    ]
+  },
+  {
+    "id": "twist_000715",
+    "story_genre": "thriller",
+    "story_setup": "A business partner receives message with no explanation.",
+    "twist": "The doctor was actually the mastermind all along.",
+    "tags": [
+      "thriller",
+      "the_mastermind"
+    ]
+  },
+  {
+    "id": "twist_000133",
+    "story_genre": "mystery",
+    "story_setup": "Someone discovers photograph that reveals forbidden knowledge.",
+    "twist": "The journalist was actually the mastermind all along.",
+    "tags": [
+      "mystery",
+      "the_mastermind"
+    ]
+  },
+  {
+    "id": "twist_000134",
+    "story_genre": "mystery",
+    "story_setup": "A couple receives phone call with no explanation.",
+    "twist": "The detective was actually the mastermind all along.",
+    "tags": [
+      "mystery",
+      "the_mastermind"
+    ]
+  },
+  {
+    "id": "twist_000525",
+    "story_genre": "mystery",
+    "story_setup": "A friend group receives phone call with no explanation.",
+    "twist": "The missing person staged everything to frame someone.",
+    "tags": [
+      "mystery"
+    ]
+  },
+  {
+    "id": "twist_000501",
+    "story_genre": "sci-fi",
+    "story_setup": "A researcher discovers AI system that predicts future.",
+    "twist": "The AI system was infected by future humans.",
+    "tags": [
+      "sci-fi"
+    ]
+  },
+  {
+    "id": "twist_000962",
+    "story_genre": "horror",
+    "story_setup": "People in underground facility experience time loops.",
+    "twist": "The AI system was controlled by aliens.",
+    "tags": [
+      "horror"
+    ]
+  },
+  {
+    "id": "twist_000144",
     "story_genre": "horror",
     "story_setup": "People in space station experience memory loss.",
     "twist": "The AI system was controlled by aliens.",
@@ -393,143 +635,37 @@
     ]
   },
   {
-    "id": "twist_000747",
-    "story_genre": "horror",
-    "story_setup": "People in space station experience telepathy.",
-    "twist": "The experiment was created by AI.",
+    "id": "twist_000376",
+    "story_genre": "thriller",
+    "story_setup": "Someone discovers artifact that reveals conspiracy.",
+    "twist": "The lawyer was actually the mastermind all along.",
     "tags": [
-      "horror"
-    ]
-  },
-  {
-    "id": "twist_001006",
-    "story_genre": "mystery",
-    "story_setup": "Someone discovers letter that reveals hidden identity.",
-    "twist": "The accused staged everything to hide identity.",
-    "tags": [
-      "mystery"
-    ]
-  },
-  {
-    "id": "twist_000839",
-    "story_genre": "mystery",
-    "story_setup": "Someone discovers letter that reveals hidden identity.",
-    "twist": "Everyone involved was living in simulation from the beginning.",
-    "tags": [
-      "mystery",
-      "living_in_simulation"
-    ]
-  },
-  {
-    "id": "twist_000611",
-    "story_genre": "horror",
-    "story_setup": "A astronaut discovers experiment that reads minds.",
-    "twist": "Everything was a time loop from the start.",
-    "tags": [
-      "horror",
-      "a_time_loop"
-    ]
-  },
-  {
-    "id": "twist_000447",
-    "story_genre": "mystery",
-    "story_setup": "Someone discovers letter that reveals hidden identity.",
-    "twist": "The doctor was actually the mastermind all along.",
-    "tags": [
-      "mystery",
+      "thriller",
       "the_mastermind"
     ]
   },
   {
-    "id": "twist_000475",
+    "id": "twist_000830",
+    "story_genre": "thriller",
+    "story_setup": "A detective investigates disappearance in a island.",
+    "twist": "The missing person staged everything to inherit fortune.",
+    "tags": [
+      "thriller"
+    ]
+  },
+  {
+    "id": "twist_000191",
     "story_genre": "sci-fi",
-    "story_setup": "People in underground facility experience telepathy.",
-    "twist": "The device was infected by the protagonist.",
+    "story_setup": "A astronaut discovers experiment that predicts future.",
+    "twist": "The experiment was controlled by the protagonist.",
     "tags": [
       "sci-fi"
     ]
   },
   {
-    "id": "twist_000896",
+    "id": "twist_000808",
     "story_genre": "sci-fi",
-    "story_setup": "People in colony experience memory loss.",
-    "twist": "The AI system was infected by future humans.",
-    "tags": [
-      "sci-fi"
-    ]
-  },
-  {
-    "id": "twist_000121",
-    "story_genre": "thriller",
-    "story_setup": "A doctor investigates fraud in a corporation.",
-    "twist": "Everyone involved was in on it from the beginning.",
-    "tags": [
-      "thriller",
-      "in_on_it"
-    ]
-  },
-  {
-    "id": "twist_000183",
-    "story_genre": "sci-fi",
-    "story_setup": "People in colony experience telepathy.",
-    "twist": "Everything was a time loop from the start.",
-    "tags": [
-      "sci-fi",
-      "a_time_loop"
-    ]
-  },
-  {
-    "id": "twist_000742",
-    "story_genre": "thriller",
-    "story_setup": "Someone discovers recording that reveals forbidden knowledge.",
-    "twist": "Everyone involved was being manipulated from the beginning.",
-    "tags": [
-      "thriller",
-      "being_manipulated"
-    ]
-  },
-  {
-    "id": "twist_000748",
-    "story_genre": "horror",
-    "story_setup": "A astronaut discovers device that controls time.",
-    "twist": "The device was controlled by future humans.",
-    "tags": [
-      "horror"
-    ]
-  },
-  {
-    "id": "twist_000134",
-    "story_genre": "mystery",
-    "story_setup": "A detective investigates disappearance in a small town.",
-    "twist": "Everyone involved was living in simulation from the beginning.",
-    "tags": [
-      "mystery",
-      "living_in_simulation"
-    ]
-  },
-  {
-    "id": "twist_000190",
-    "story_genre": "sci-fi",
-    "story_setup": "A astronaut discovers device that controls time.",
-    "twist": "The device was infected by future humans.",
-    "tags": [
-      "sci-fi"
-    ]
-  },
-  {
-    "id": "twist_000598",
-    "story_genre": "thriller",
-    "story_setup": "Someone discovers diary that reveals conspiracy.",
-    "twist": "Everyone involved was living in simulation from the beginning.",
-    "tags": [
-      "thriller",
-      "living_in_simulation"
-    ]
-  },
-  {
-    "id": "twist_000821",
-    "story_genre": "sci-fi",
-    "story_setup": "Reality begins to fragment for protagonist.",
+    "story_setup": "A researcher discovers device that controls time.",
     "twist": "Everything was a prophecy from the start.",
     "tags": [
       "sci-fi",
@@ -537,28 +673,29 @@
     ]
   },
   {
-    "id": "twist_000504",
+    "id": "twist_000612",
     "story_genre": "thriller",
-    "story_setup": "Someone discovers recording that reveals forbidden knowledge.",
-    "twist": "The teacher was actually the actual victim all along.",
+    "story_setup": "Someone discovers photograph that reveals conspiracy.",
+    "twist": "The detective was actually working with the villain all along.",
     "tags": [
       "thriller",
-      "the_actual_victim"
+      "working_with_the_villain"
     ]
   },
   {
-    "id": "twist_000041",
-    "story_genre": "horror",
-    "story_setup": "People in colony experience time loops.",
-    "twist": "The device was controlled by future humans.",
+    "id": "twist_000398",
+    "story_genre": "sci-fi",
+    "story_setup": "Reality begins to fragment for entire cast.",
+    "twist": "Everything was a time loop from the start.",
     "tags": [
-      "horror"
+      "sci-fi",
+      "a_time_loop"
     ]
   },
   {
-    "id": "twist_000669",
+    "id": "twist_000160",
     "story_genre": "horror",
-    "story_setup": "Reality begins to merge for protagonist.",
+    "story_setup": "Reality begins to fragment for one character.",
     "twist": "They're all clones and don't know it.",
     "tags": [
       "horror",
@@ -566,56 +703,39 @@
     ]
   },
   {
-    "id": "twist_000901",
-    "story_genre": "mystery",
-    "story_setup": "Someone discovers letter that reveals past crime.",
-    "twist": "Everyone involved was in on it from the beginning.",
+    "id": "twist_000814",
+    "story_genre": "horror",
+    "story_setup": "People in colony experience memory loss.",
+    "twist": "Everything was a time loop from the start.",
     "tags": [
-      "mystery",
-      "in_on_it"
+      "horror",
+      "a_time_loop"
     ]
   },
   {
-    "id": "twist_000411",
-    "story_genre": "mystery",
-    "story_setup": "A business partner receives phone call with no explanation.",
-    "twist": "The victim staged everything to hide identity.",
-    "tags": [
-      "mystery"
-    ]
-  },
-  {
-    "id": "twist_000233",
+    "id": "twist_000618",
     "story_genre": "thriller",
-    "story_setup": "A doctor investigates conspiracy in a island.",
-    "twist": "The witness staged everything to frame someone.",
+    "story_setup": "A business partner receives phone call with no explanation.",
+    "twist": "The journalist was actually the actual victim all along.",
     "tags": [
-      "thriller"
+      "thriller",
+      "the_actual_victim"
     ]
   },
   {
-    "id": "twist_000530",
+    "id": "twist_000159",
+    "story_genre": "thriller",
+    "story_setup": "A journalist investigates disappearance in a mansion.",
+    "twist": "Everyone involved was living in simulation from the beginning.",
+    "tags": [
+      "thriller",
+      "living_in_simulation"
+    ]
+  },
+  {
+    "id": "twist_000404",
     "story_genre": "sci-fi",
-    "story_setup": "People in virtual world experience telepathy.",
-    "twist": "Everything was a dying dream from the start.",
-    "tags": [
-      "sci-fi",
-      "a_dying_dream"
-    ]
-  },
-  {
-    "id": "twist_000600",
-    "story_genre": "mystery",
-    "story_setup": "Someone discovers photograph that reveals hidden identity.",
-    "twist": "The accused staged everything to escape debt.",
-    "tags": [
-      "mystery"
-    ]
-  },
-  {
-    "id": "twist_000781",
-    "story_genre": "sci-fi",
-    "story_setup": "People in space station experience time loops.",
+    "story_setup": "Reality begins to shift for entire cast.",
     "twist": "They're all dead and don't know it.",
     "tags": [
       "sci-fi",
@@ -623,19 +743,19 @@
     ]
   },
   {
-    "id": "twist_000169",
+    "id": "twist_000999",
     "story_genre": "thriller",
-    "story_setup": "Someone discovers recording that reveals past crime.",
-    "twist": "The lawyer was actually working with the villain all along.",
+    "story_setup": "Someone discovers recording that reveals hidden identity.",
+    "twist": "The journalist was actually working with the villain all along.",
     "tags": [
       "thriller",
       "working_with_the_villain"
     ]
   },
   {
-    "id": "twist_000808",
+    "id": "twist_000502",
     "story_genre": "sci-fi",
-    "story_setup": "Reality begins to loop for protagonist.",
+    "story_setup": "People in space station experience shared dreams.",
     "twist": "Everything was a prophecy from the start.",
     "tags": [
       "sci-fi",
@@ -643,88 +763,46 @@
     ]
   },
   {
-    "id": "twist_000654",
-    "story_genre": "horror",
-    "story_setup": "Reality begins to merge for one character.",
-    "twist": "They're all AI constructs and don't know it.",
-    "tags": [
-      "horror",
-      "AI_constructs"
-    ]
-  },
-  {
-    "id": "twist_000915",
-    "story_genre": "thriller",
-    "story_setup": "A lawyer investigates theft in a small town.",
-    "twist": "The lawyer was actually working with the villain all along.",
-    "tags": [
-      "thriller",
-      "working_with_the_villain"
-    ]
-  },
-  {
-    "id": "twist_000053",
-    "story_genre": "mystery",
-    "story_setup": "Someone discovers photograph that reveals forbidden knowledge.",
-    "twist": "Everyone involved was living in simulation from the beginning.",
-    "tags": [
-      "mystery",
-      "living_in_simulation"
-    ]
-  },
-  {
-    "id": "twist_000998",
-    "story_genre": "thriller",
-    "story_setup": "A teacher investigates conspiracy in a corporation.",
-    "twist": "The teacher was actually working with the villain all along.",
-    "tags": [
-      "thriller",
-      "working_with_the_villain"
-    ]
-  },
-  {
-    "id": "twist_000146",
-    "story_genre": "horror",
-    "story_setup": "A researcher discovers device that controls time.",
-    "twist": "Everything was a dying dream from the start.",
-    "tags": [
-      "horror",
-      "a_dying_dream"
-    ]
-  },
-  {
-    "id": "twist_000745",
+    "id": "twist_000916",
     "story_genre": "sci-fi",
-    "story_setup": "People in space station experience time loops.",
-    "twist": "Everything was a time loop from the start.",
+    "story_setup": "Reality begins to fragment for entire cast.",
+    "twist": "They're all dead and don't know it.",
     "tags": [
       "sci-fi",
-      "a_time_loop"
+      "dead"
     ]
   },
   {
-    "id": "twist_000145",
+    "id": "twist_000848",
     "story_genre": "sci-fi",
-    "story_setup": "A programmer discovers AI system that predicts future.",
-    "twist": "They're all AI constructs and don't know it.",
+    "story_setup": "People in colony experience telepathy.",
+    "twist": "The experiment was created by aliens.",
     "tags": [
-      "sci-fi",
-      "AI_constructs"
+      "sci-fi"
     ]
   },
   {
-    "id": "twist_000342",
-    "story_genre": "horror",
-    "story_setup": "A researcher discovers experiment that alters reality.",
+    "id": "twist_000786",
+    "story_genre": "sci-fi",
+    "story_setup": "A researcher discovers experiment that predicts future.",
     "twist": "The experiment was infected by AI.",
     "tags": [
-      "horror"
+      "sci-fi"
     ]
   },
   {
-    "id": "twist_000474",
+    "id": "twist_000253",
+    "story_genre": "sci-fi",
+    "story_setup": "People in space station experience shared dreams.",
+    "twist": "The experiment was infected by future humans.",
+    "tags": [
+      "sci-fi"
+    ]
+  },
+  {
+    "id": "twist_000377",
     "story_genre": "mystery",
-    "story_setup": "Someone discovers diary that reveals hidden identity.",
+    "story_setup": "A family receives package with no explanation.",
     "twist": "The lawyer was actually working with the villain all along.",
     "tags": [
       "mystery",
@@ -732,180 +810,9 @@
     ]
   },
   {
-    "id": "twist_000621",
-    "story_genre": "mystery",
-    "story_setup": "A family receives package with no explanation.",
-    "twist": "The doctor was actually the mastermind all along.",
-    "tags": [
-      "mystery",
-      "the_mastermind"
-    ]
-  },
-  {
-    "id": "twist_000346",
-    "story_genre": "mystery",
-    "story_setup": "A teacher investigates theft in a mansion.",
-    "twist": "The victim staged everything to frame someone.",
-    "tags": [
-      "mystery"
-    ]
-  },
-  {
-    "id": "twist_000569",
-    "story_genre": "horror",
-    "story_setup": "Reality begins to loop for one character.",
-    "twist": "The portal was infected by the protagonist.",
-    "tags": [
-      "horror"
-    ]
-  },
-  {
-    "id": "twist_000354",
+    "id": "twist_000296",
     "story_genre": "sci-fi",
-    "story_setup": "Reality begins to merge for entire cast.",
-    "twist": "The experiment was controlled by the protagonist.",
-    "tags": [
-      "sci-fi"
-    ]
-  },
-  {
-    "id": "twist_000334",
-    "story_genre": "thriller",
-    "story_setup": "A journalist investigates disappearance in a mansion.",
-    "twist": "The accused staged everything to hide identity.",
-    "tags": [
-      "thriller"
-    ]
-  },
-  {
-    "id": "twist_000249",
-    "story_genre": "thriller",
-    "story_setup": "A friend group receives anonymous letter with no explanation.",
-    "twist": "Everyone involved was in on it from the beginning.",
-    "tags": [
-      "thriller",
-      "in_on_it"
-    ]
-  },
-  {
-    "id": "twist_000175",
-    "story_genre": "mystery",
-    "story_setup": "Someone discovers photograph that reveals forbidden knowledge.",
-    "twist": "The accused staged everything to hide identity.",
-    "tags": [
-      "mystery"
-    ]
-  },
-  {
-    "id": "twist_000038",
-    "story_genre": "sci-fi",
-    "story_setup": "A researcher discovers experiment that alters reality.",
-    "twist": "They're all AI constructs and don't know it.",
-    "tags": [
-      "sci-fi",
-      "AI_constructs"
-    ]
-  },
-  {
-    "id": "twist_000905",
-    "story_genre": "sci-fi",
-    "story_setup": "People in space station experience memory loss.",
-    "twist": "Everything was a dying dream from the start.",
-    "tags": [
-      "sci-fi",
-      "a_dying_dream"
-    ]
-  },
-  {
-    "id": "twist_000365",
-    "story_genre": "mystery",
-    "story_setup": "A business partner receives package with no explanation.",
-    "twist": "Everyone involved was living in simulation from the beginning.",
-    "tags": [
-      "mystery",
-      "living_in_simulation"
-    ]
-  },
-  {
-    "id": "twist_000591",
-    "story_genre": "horror",
-    "story_setup": "A scientist discovers device that controls time.",
-    "twist": "The device was infected by the protagonist.",
-    "tags": [
-      "horror"
-    ]
-  },
-  {
-    "id": "twist_000706",
-    "story_genre": "sci-fi",
-    "story_setup": "People in underground facility experience time loops.",
-    "twist": "Everything was a dying dream from the start.",
-    "tags": [
-      "sci-fi",
-      "a_dying_dream"
-    ]
-  },
-  {
-    "id": "twist_000115",
-    "story_genre": "horror",
-    "story_setup": "A researcher discovers portal that alters reality.",
-    "twist": "They're all in a simulation and don't know it.",
-    "tags": [
-      "horror",
-      "in_a_simulation"
-    ]
-  },
-  {
-    "id": "twist_000877",
-    "story_genre": "sci-fi",
-    "story_setup": "A programmer discovers experiment that controls time.",
-    "twist": "The experiment was controlled by AI.",
-    "tags": [
-      "sci-fi"
-    ]
-  },
-  {
-    "id": "twist_000959",
-    "story_genre": "horror",
-    "story_setup": "Reality begins to shift for protagonist.",
-    "twist": "The device was infected by aliens.",
-    "tags": [
-      "horror"
-    ]
-  },
-  {
-    "id": "twist_000867",
-    "story_genre": "thriller",
-    "story_setup": "A couple receives phone call with no explanation.",
-    "twist": "The accused staged everything to hide identity.",
-    "tags": [
-      "thriller"
-    ]
-  },
-  {
-    "id": "twist_000130",
-    "story_genre": "horror",
-    "story_setup": "Reality begins to merge for protagonist.",
-    "twist": "Everything was a memory from the start.",
-    "tags": [
-      "horror",
-      "a_memory"
-    ]
-  },
-  {
-    "id": "twist_000649",
-    "story_genre": "thriller",
-    "story_setup": "A teacher investigates theft in a island.",
-    "twist": "The teacher was actually working with the villain all along.",
-    "tags": [
-      "thriller",
-      "working_with_the_villain"
-    ]
-  },
-  {
-    "id": "twist_000488",
-    "story_genre": "sci-fi",
-    "story_setup": "A researcher discovers device that alters reality.",
+    "story_setup": "Reality begins to fragment for protagonist.",
     "twist": "They're all clones and don't know it.",
     "tags": [
       "sci-fi",
@@ -913,60 +820,160 @@
     ]
   },
   {
-    "id": "twist_000282",
+    "id": "twist_000110",
     "story_genre": "horror",
-    "story_setup": "A researcher discovers portal that reads minds.",
-    "twist": "The portal was infected by future humans.",
+    "story_setup": "A scientist discovers experiment that reads minds.",
+    "twist": "They're all AI constructs and don't know it.",
     "tags": [
-      "horror"
+      "horror",
+      "AI_constructs"
     ]
   },
   {
-    "id": "twist_000378",
-    "story_genre": "mystery",
-    "story_setup": "Someone discovers diary that reveals past crime.",
-    "twist": "The lawyer was actually the actual victim all along.",
+    "id": "twist_000181",
+    "story_genre": "thriller",
+    "story_setup": "A journalist investigates conspiracy in a corporation.",
+    "twist": "Everyone involved was being manipulated from the beginning.",
     "tags": [
-      "mystery",
+      "thriller",
+      "being_manipulated"
+    ]
+  },
+  {
+    "id": "twist_000172",
+    "story_genre": "horror",
+    "story_setup": "A scientist discovers AI system that predicts future.",
+    "twist": "Everything was a prophecy from the start.",
+    "tags": [
+      "horror",
+      "a_prophecy"
+    ]
+  },
+  {
+    "id": "twist_000685",
+    "story_genre": "thriller",
+    "story_setup": "A teacher investigates murder in a mansion.",
+    "twist": "Everyone involved was being manipulated from the beginning.",
+    "tags": [
+      "thriller",
+      "being_manipulated"
+    ]
+  },
+  {
+    "id": "twist_000609",
+    "story_genre": "sci-fi",
+    "story_setup": "Reality begins to loop for one character.",
+    "twist": "They're all dead and don't know it.",
+    "tags": [
+      "sci-fi",
+      "dead"
+    ]
+  },
+  {
+    "id": "twist_000297",
+    "story_genre": "thriller",
+    "story_setup": "A friend group receives package with no explanation.",
+    "twist": "The journalist was actually the actual victim all along.",
+    "tags": [
+      "thriller",
       "the_actual_victim"
     ]
   },
   {
-    "id": "twist_000776",
-    "story_genre": "mystery",
-    "story_setup": "A journalist investigates disappearance in a mansion.",
-    "twist": "Everyone involved was in on it from the beginning.",
-    "tags": [
-      "mystery",
-      "in_on_it"
-    ]
-  },
-  {
-    "id": "twist_000555",
+    "id": "twist_000380",
     "story_genre": "thriller",
-    "story_setup": "A lawyer investigates disappearance in a university.",
-    "twist": "Everyone involved was in on it from the beginning.",
-    "tags": [
-      "thriller",
-      "in_on_it"
-    ]
-  },
-  {
-    "id": "twist_000039",
-    "story_genre": "sci-fi",
-    "story_setup": "People in colony experience telepathy.",
-    "twist": "The AI system was controlled by AI.",
-    "tags": [
-      "sci-fi"
-    ]
-  },
-  {
-    "id": "twist_000615",
-    "story_genre": "thriller",
-    "story_setup": "A couple receives package with no explanation.",
-    "twist": "The missing person staged everything to frame someone.",
+    "story_setup": "A family receives package with no explanation.",
+    "twist": "The victim staged everything to escape debt.",
     "tags": [
       "thriller"
+    ]
+  },
+  {
+    "id": "twist_000410",
+    "story_genre": "mystery",
+    "story_setup": "A business partner receives message with no explanation.",
+    "twist": "The missing person staged everything to hide identity.",
+    "tags": [
+      "mystery"
+    ]
+  },
+  {
+    "id": "twist_000120",
+    "story_genre": "mystery",
+    "story_setup": "Someone discovers diary that reveals forbidden knowledge.",
+    "twist": "The journalist was actually the mastermind all along.",
+    "tags": [
+      "mystery",
+      "the_mastermind"
+    ]
+  },
+  {
+    "id": "twist_000308",
+    "story_genre": "horror",
+    "story_setup": "A astronaut discovers AI system that controls time.",
+    "twist": "Everything was a dying dream from the start.",
+    "tags": [
+      "horror",
+      "a_dying_dream"
+    ]
+  },
+  {
+    "id": "twist_000070",
+    "story_genre": "thriller",
+    "story_setup": "A journalist investigates disappearance in a university.",
+    "twist": "The victim staged everything to hide identity.",
+    "tags": [
+      "thriller"
+    ]
+  },
+  {
+    "id": "twist_000079",
+    "story_genre": "horror",
+    "story_setup": "Reality begins to loop for one character.",
+    "twist": "They're all AI constructs and don't know it.",
+    "tags": [
+      "horror",
+      "AI_constructs"
+    ]
+  },
+  {
+    "id": "twist_000249",
+    "story_genre": "thriller",
+    "story_setup": "Someone discovers diary that reveals forbidden knowledge.",
+    "twist": "The detective was actually the mastermind all along.",
+    "tags": [
+      "thriller",
+      "the_mastermind"
+    ]
+  },
+  {
+    "id": "twist_000673",
+    "story_genre": "sci-fi",
+    "story_setup": "A astronaut discovers device that reads minds.",
+    "twist": "Everything was a prophecy from the start.",
+    "tags": [
+      "sci-fi",
+      "a_prophecy"
+    ]
+  },
+  {
+    "id": "twist_000229",
+    "story_genre": "sci-fi",
+    "story_setup": "A scientist discovers experiment that alters reality.",
+    "twist": "Everything was a time loop from the start.",
+    "tags": [
+      "sci-fi",
+      "a_time_loop"
+    ]
+  },
+  {
+    "id": "twist_000536",
+    "story_genre": "horror",
+    "story_setup": "A astronaut discovers experiment that controls time.",
+    "twist": "They're all AI constructs and don't know it.",
+    "tags": [
+      "horror",
+      "AI_constructs"
     ]
   }
 ]

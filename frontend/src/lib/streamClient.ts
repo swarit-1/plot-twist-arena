@@ -66,7 +66,7 @@ export class PredictionStreamClient {
       }
     };
 
-    this.eventSource.onerror = (error) => {
+    this.eventSource.onerror = (_error) => {
       options.onError(new Error('Stream connection error'));
       this.close();
     };

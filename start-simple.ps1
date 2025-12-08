@@ -55,21 +55,21 @@ Write-Host ""
 # Start Model Server
 Write-Host "[1/3] Starting Model Server (port 8001)..." -ForegroundColor Cyan
 Start-Process powershell -ArgumentList "-NoExit", "-Command", `
-    "`$host.UI.RawUI.WindowTitle='Model Server'; Write-Host '=== MODEL SERVER ===' -ForegroundColor Magenta; cd '$PWD\model-server'; python -m uvicorn main:app --reload --port 8001"
+    "`$host.UI.RawUI.WindowTitle='Model Server'; Write-Host '=== MODEL SERVER ===' -ForegroundColor Magenta; python -m uvicorn main:app --reload --port 8001" -WorkingDirectory "$PWD\model-server"
 
 Start-Sleep -Seconds 8
 
 # Start Backend
 Write-Host "[2/3] Starting Backend API (port 3001)..." -ForegroundColor Cyan
 Start-Process powershell -ArgumentList "-NoExit", "-Command", `
-    "`$host.UI.RawUI.WindowTitle='Backend API'; Write-Host '=== BACKEND API ===' -ForegroundColor Green; cd '$PWD\backend'; npm run dev"
+    "`$host.UI.RawUI.WindowTitle='Backend API'; Write-Host '=== BACKEND API ===' -ForegroundColor Green; npm run dev" -WorkingDirectory "$PWD\backend"
 
 Start-Sleep -Seconds 5
 
 # Start Frontend
 Write-Host "[3/3] Starting Frontend (port 5173)..." -ForegroundColor Cyan
 Start-Process powershell -ArgumentList "-NoExit", "-Command", `
-    "`$host.UI.RawUI.WindowTitle='Frontend'; Write-Host '=== FRONTEND ===' -ForegroundColor Yellow; cd '$PWD\frontend'; npm run dev"
+    "`$host.UI.RawUI.WindowTitle='Frontend'; Write-Host '=== FRONTEND ===' -ForegroundColor Yellow; npm run dev" -WorkingDirectory "$PWD\frontend"
 
 Write-Host ""
 Write-Host "=== Services Starting! ===" -ForegroundColor Green

@@ -1,6 +1,5 @@
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
-import { useFocusRing } from 'react-aria';
 
 interface GuessCardProps {
   guess: string;
@@ -22,7 +21,12 @@ export default function GuessCard({
   justification
 }: GuessCardProps) {
   const [isExpanded, setIsExpanded] = useState(false);
-  const { isFocusVisible, focusProps } = useFocusRing();
+  // Lightweight focus-visible fallback to avoid a hard dependency on react-aria types
+  const [isFocusVisible, setIsFocusVisible] = useState(false);
+  const focusProps = {
+    onFocus: () => setIsFocusVisible(true),
+    onBlur: () => setIsFocusVisible(false)
+  };
 
   const handleClick = () => {
     if (onSelect) {
@@ -36,7 +40,7 @@ export default function GuessCard({
       initial={{ opacity: 0, x: -20 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ delay: index * 0.1 }}
-      className={`cursor-pointer transition-all ${
+      className={`cursor-pointer transition-all focus:outline-none ${
         isSelected ? 'ring-2 ring-cyber-accent' : ''
       } ${isFocusVisible ? 'ring-2 ring-cyber-highlight' : ''}`}
       onClick={handleClick}
@@ -58,7 +62,7 @@ export default function GuessCard({
           <div className="flex items-center gap-3">
             <span className="text-3xl font-bold text-cyber-accent">#{index + 1}</span>
             <div className="flex items-center gap-2">
-              <div className="h-2 w-24 bg-cyber-bg rounded-full overflow-hidden">
+              <div className="h-2 w-40 bg-cyber-bg rounded-full overflow-hidden">
                 <motion.div
                   initial={{ width: 0 }}
                   animate={{ width: `${confidence * 100}%` }}
@@ -122,5 +126,4 @@ export default function GuessCard({
   );
 }
 
-// Helper component for AnimatePresence
-import { AnimatePresence } from 'framer-motion';
+// AnimatePresence imported at top to avoid runtime/TS errors
