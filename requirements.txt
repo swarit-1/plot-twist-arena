@@ -1,0 +1,38 @@
+# Streamlit and web frameworks
+streamlit>=1.30.0
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+requests>=2.30.0
+python-dotenv>=1.0.0
+
+# ML/AI Core (Python 3.10 compatible)
+torch==2.0.1
+transformers==4.37.2
+sentence-transformers==2.3.1
+numpy==1.24.3
+scikit-learn==1.4.0
+
+# Vector search (Python 3.10 compatible)
+faiss-cpu==1.8.0
+
+# ML Training & Optimization
+datasets==2.16.1
+accelerate==0.26.1
+peft==0.8.2
+trl==0.7.11
+
+# Utilities
+pydantic==2.6.1
+python-multipart==0.0.9
+sse-starlette==1.8.2
+redis==5.0.1
+PyYAML==6.0.1
+tqdm==4.66.1
+
+# Testing (optional, can be removed for deployment)
+pytest==7.4.4
+pytest-asyncio==0.23.4
+
+# Data scraping (if needed)
+beautifulsoup4==4.12.3
+lxml==5.1.0
